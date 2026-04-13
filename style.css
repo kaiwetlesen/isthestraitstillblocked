@@ -5,27 +5,50 @@ body {
     background-image: url("bombing.jpg");
 }
 
-#question {
-    color: white;
+header {
     background-color: black;
     text-align: center;
+    margin-left: 9%;
+    width: 80%;
+    padding: 1%;
+    margin-top: 4em;
+    margin-bottom: 3em;
 }
 
-#answer {
+header #question {
+    margin: 0em;
+    color: white;
+}
+
+header #answer {
+    margin: 0em;
     color: red;
-    background-color: black;
-    text-align: center;
     font-size: 13em;
     padding-bottom: 0em;
 }
 
-#info {
+main {
     display: block;
     background-color: white;
     color: black;
     width: 80%;
-    margin-left: 10%;
-    padding: 1em;
+    margin-left: 9%;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1%;
+    padding-right: 1%;
     font-size: 1.2em;
     margin-bottom: 5em;
+}
+
+figure.comic {
+    display: inline-block;
+}
+
+figure.comic figcaption {
+    text-align: center;
+}
+
+figure#farsidecomic img {
+    width: 720px;
 }
