@@ -5,6 +5,12 @@ body {
     background-image: url("bombing.jpg");
 }
 
+#question {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
 #answer {
     color: red;
     background-color: black;
